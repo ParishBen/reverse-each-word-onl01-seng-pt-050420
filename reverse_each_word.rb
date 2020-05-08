@@ -3,7 +3,8 @@ def reverse_each_word(phrase)
   myArr = []
   myArr << phrase
   while phrase
-  rtrnArray << phrase.pop
+  myArr.each do |word|
+   rtrnArray << word.pop
 end
 rtrnArray.reverse
   
