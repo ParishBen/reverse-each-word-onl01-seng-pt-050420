@@ -7,4 +7,5 @@ def reverse_each_word(phrase)
   end
   scndrtrnArray.join
   lastArr= scndrtrnArray.reverse
+  lastArr
 end
