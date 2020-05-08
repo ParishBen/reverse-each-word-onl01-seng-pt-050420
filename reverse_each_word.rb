@@ -1,5 +1,5 @@
 def reverse_each_word(phrase)
-  rtrnArray= []
+  sdrow= []
   myArr = []
   myArr = phrase.split(" ")
   myArr.each do |word|
