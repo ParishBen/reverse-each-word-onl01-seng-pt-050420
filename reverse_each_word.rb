@@ -5,5 +5,6 @@ def reverse_each_word(phrase)
   rtrnArray.each do |word|
     scndrtrnArray << word.reverse
   end
-  scndrtrnArray
+  scndrtrnArray.join
+  
 end
