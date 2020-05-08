@@ -4,6 +4,6 @@ def reverse_each_word(phrase)
   rtrnArray << phrase
   reversedArray = []
   reversedArray = rtrnArray.reverse_each
-    reversedArray.reverse
+    reversedArray
   end
 end
