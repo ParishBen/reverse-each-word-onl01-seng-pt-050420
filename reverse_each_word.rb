@@ -3,7 +3,7 @@ def reverse_each_word(phrase)
   myArr = []
   myArr = phrase.split(" ")
   myArr.collect do |word|
-    sdrow << word.reverse
+     word.reverse
   end
-  sdrow.join(" ")
+  myArr
     end
