@@ -3,7 +3,7 @@ def reverse_each_word(phrase)
   scndrtrnArray=[]
   rtrnArray << phrase
   reversedArray = []
-  reversedArray << rtrnArray.reverse_each
+  reversedArray = rtrnArray.reverse_each
     reversedArray.reverse
   end
 end
